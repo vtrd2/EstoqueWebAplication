@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Estoque</title>
+</head>
+<body>
+
+    <div class="pageleft">
+        <div class="division" id="div1">
+            <h1 class="h1Title">Produto Selecionado:</h1>
+            
+            <h3 id="nomeProdutoI">Nenhum produto selecionado</h3>
+            <h3>Quantidade: <span id="quantidadeProduto">0</span></h3>
+        </div>
+
+        <div class="division" id="div2">
+            <div class="buttons">
+                <button class="indexBt" id="newBt">Novo Produto</button>
+                <br>
+                <button class="indexBt" id="removeBt">Remover Produto</button>
+                <br>
+                <button class="indexBt" id="alterBt">Alterar Produto</button>
+            </div>
+            
+            <div id="form"></div>
+            
+        </div>    
+    </div>
+
+    <div class="pageright">
+        <div class="division" id="div3">
+            <h2 class="listaTitle">Lista de produtos:</h2>
+            <div id="listaProdutos"></div>
+        </div>
+    </div>
+
+    <script src="js/functions.js"></script>
+</body>
+</html>

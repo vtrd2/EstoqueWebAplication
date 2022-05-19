@@ -1,0 +1,80 @@
+body {
+    background-color: #71aac0;
+    height: 100%;
+}
+
+.division {
+    border: 1px solid #000;
+    background-color: rgba(255, 255, 255, 0.589);
+    border-radius: 6px;
+}
+
+#div1 {
+    height: 50%;
+    margin-right: 12px;
+    text-align: center;
+}
+
+#div2 {
+    height: 49%;
+    margin-right: 12px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.pageleft {
+    float: left;
+    position: absolute;
+    width: 50%;
+    bottom: 10px;
+    top: 10px;
+    left: 10px;
+}
+
+#div3 {    
+   height: 100%;
+   margin-left: 12px;
+   text-align: center;
+}
+
+.pageright {
+    float: right;
+    position: absolute;
+    width: 50%;
+    bottom: 10px;
+    top: 10px;
+    right: 10px;
+}
+
+button {
+    margin-top: 18px;
+    cursor: pointer;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 6px;
+    background-color: #71aac086;
+}
+
+button:hover {
+    background-color: #71aac0;
+}
+
+input {
+    margin-top: 18px;
+    border-radius: 6px;
+}
+
+#form {
+    margin-top: 20px;
+    display: block;
+}
+
+.produto {
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.produto:hover {
+    /*Coloca sombra nas letras*/
+    text-shadow: 0px 0px 5px #517a8a;
+}
